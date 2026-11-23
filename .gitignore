@@ -1,0 +1,8 @@
+# Log va ban build (tu tao lai duoc)
+*.log
+dist/
+node_modules/
+
+# Script cau hinh may ca nhan, khong thuoc game
+tools/add_mcp.ps1
+tools/check.bat

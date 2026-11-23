@@ -1,0 +1,11 @@
+{
+  "name": "dino-runner",
+  "version": "1.0.0",
+  "description": "Game khung long nhay chay tren server local",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js",
+    "dev": "node build.js && node server.js"
+  }
+}
