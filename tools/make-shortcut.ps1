@@ -1,6 +1,6 @@
 # Tao shortcut "Dino Runner" co icon tren Desktop, chuyen file .bat cu vao Thung rac.
 $ErrorActionPreference = 'Stop'
-$app = 'C:\myWebApp\myWebapp_1'
+$app = Split-Path -Parent $PSScriptRoot
 $desktop = [Environment]::GetFolderPath('Desktop')
 $lnkPath = Join-Path $desktop 'Dino Runner.lnk'
 

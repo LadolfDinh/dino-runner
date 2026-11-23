@@ -1,7 +1,20 @@
 # Dino Runner - Khung long nhay
 
-Mo game: bam dup shortcut **Dino Runner** tren Desktop.
-Game mo trong cua so rieng; dong cua so la server tu tat.
+Choi online: [Dino Runner](https://ladolfdinh.github.io/dino-runner/)
+
+## Chay tren may
+Can cai Node.js.
+
+```sh
+git clone https://github.com/LadolfDinh/dino-runner.git
+cd dino-runner
+npm run dev
+```
+
+Mo [http://127.0.0.1:5173](http://127.0.0.1:5173) trong trinh duyet.
+
+Shortcut **Dino Runner** tren Desktop la tuy chon. Tren Windows, chay `tools/make-shortcut.ps1` bang PowerShell de tao shortcut.
+Bam dup shortcut de mo game trong cua so rieng. Dong cua so thi server tu tat.
 
 ## Cau truc
 - `src/`          ma nguon game (index.html, style.css, game.js, icon.png)
